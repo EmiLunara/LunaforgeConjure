@@ -44,11 +44,11 @@ classifiers = [
 [project.scripts]
 conjure = "conjure.cli:main"
 
-# Add these once the repository exists.
-# [project.urls]
-# Homepage = "https://github.com/YOUR-ACCOUNT/LunaforgeConjure"
-# Repository = "https://github.com/YOUR-ACCOUNT/LunaforgeConjure"
-# Issues = "https://github.com/YOUR-ACCOUNT/LunaforgeConjure/issues"
+[project.urls]
+Homepage = "https://github.com/EmiLunara/LunaforgeConjure"
+Repository = "https://github.com/EmiLunara/LunaforgeConjure"
+Issues = "https://github.com/EmiLunara/LunaforgeConjure/issues"
+Changelog = "https://github.com/EmiLunara/LunaforgeConjure/releases"
 
 [tool.setuptools.packages.find]
 include = ["conjure*"]

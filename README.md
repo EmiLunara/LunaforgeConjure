@@ -36,7 +36,7 @@ Originally developed as part of the Lunaforge development ecosystem, Conjure is 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/LunaforgeConjure.git
+git clone https://github.com/EmiLunara/LunaforgeConjure.git
 cd LunaforgeConjure
 ```
 
