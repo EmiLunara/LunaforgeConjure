@@ -1,0 +1,54 @@
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "lunaforge-conjure"
+version = "0.1.0"
+description = "An extensible, IDE-independent file generation toolkit."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+authors = [
+    { name = "EmiLunara" }
+]
+
+keywords = [
+    "lunaforge",
+    "conjure",
+    "code-generation",
+    "scaffolding",
+    "cplusplus",
+    "developer-tools",
+    "cli"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Code Generators",
+]
+
+
+[project.scripts]
+conjure = "conjure.cli:main"
+
+# Add these once the repository exists.
+# [project.urls]
+# Homepage = "https://github.com/YOUR-ACCOUNT/LunaforgeConjure"
+# Repository = "https://github.com/YOUR-ACCOUNT/LunaforgeConjure"
+# Issues = "https://github.com/YOUR-ACCOUNT/LunaforgeConjure/issues"
+
+[tool.setuptools.packages.find]
+include = ["conjure*"]
